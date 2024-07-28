@@ -14,29 +14,30 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    width:auto;
+    width:1440px;
     height: auto;
     margin: 60px 200px;
 }
 .nav-menu {
     display: flex;
-    align-content: end;
+    justify-content: flex-start;
     border: 1px solid;
     padding: 10px 25px;
     border-radius: 30px;
-    margin: 60px;
-    box-shadow: gray;
+    margin: 60px 400px;
+    border: 1px solid rgb(24, 23, 23);
 }
 .hamburger {
     color: white;
-    margin: 70px 200px;    
+    margin: 70px 200px;
+    display: none;
 }
 h1 {
     color: rgb(230, 83,60);
     justify-content: center;
     vertical-align:middle;
     margin-top: 60px;
-    font-size: 36px;
+    font-size: 40px;
 }
 .btn-one {
     padding: 5px 20px;
@@ -79,6 +80,7 @@ span {
 .main-heading {
     color: white;
     font-size: 60px;
+    margin-top: 10px;
 }
 .banner-description {
     color: darkgray;
@@ -394,20 +396,24 @@ hr {
         /* display: flex; */
         /* flex-direction: column; */
         align-items: center;
-        flex-wrap: wrap;
-        height: auto;
-        width: auto;
+        max-width: 500px;
+        margin-top: 5px;
     }
-    h1 {
+    /* h1 {
         color: gold;
-    }
+    } */
     .nav-menu {
         display: none;
     }
     .hamburger {
         color: white;
         justify-content: center;
-        align-items: center;
+        align-content: center;
+        margin-top: 80px;
+        align-content: end;
+        display: block;
+        position: relative;
+        bottom: -25px;
         
     }
     .banner-container {
